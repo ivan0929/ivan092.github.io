@@ -1,0 +1,36 @@
+/* 全頁背景圖片 */
+body {
+    background-image: url('https://images6.alphacoders.com/123/1238117.jpg'); /* 替換成你的圖片 URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* 中央對齊內容 */
+header, section, footer {
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* 加入半透明背景 */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #FFD700; /* 黃金色，與勇士隊顏色呼應 */
+}
+
+a {
+    color: #00BFFF; /* 淺藍色 */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFD700; /* 滑鼠懸停變為黃金色 */
+}
